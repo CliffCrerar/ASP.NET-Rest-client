@@ -7,14 +7,19 @@
 using System;
 namespace ErrorHandlers
 {
+
     public class ErrorHandler
     {
-
         //public Action Operation;
         private readonly string errStartText = "### DEMO RESTClient ERROR: ";
         private readonly string errPrefix = "| -> ERROR Details:";
         private readonly string errHead = "|----------------ERROR DETAILS---------------|";
         private readonly string errEnd = "|--------------------END---------------------|";
+        public class Error
+
+        {
+            public Exception err;
+        }
 
         private void StartError()
         {
