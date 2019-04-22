@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "REST Client Demo"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Default Dark+",
+		"cSpell.words": [
+			"auto",
+			"omnisharp",
+			"repo",
+			"start"
+		],
+		"terminal.integrated.shell.windows": "cmd.exe",
+		"editor.fontFamily": "FiraCode-Retina, Menlo, Monaco, 'Courier New', monospace",
+		"editor.fontSize": 14,
+		"editor.fontLigatures": true,
+		"editor.fontWeight": "normal",
+		"files.autoSave": "onFocusChange",
+		"csharpextensions.reFormatAfterChange": true,
+		"csharp.format.enable": true,
+		"csharp.referencesCodeLens.enabled": true,
+		"csharp.suppressDotnetInstallWarning": true,
+		"csharp.testsCodeLens.enabled": true,
+		"omnisharp.autoStart": true,
+		"razor.devmode": true,
+		"razor.trace": "Messages",
+		"msbuildProjectTools.language.useClassicProvider": true,
+		"msbuildProjectTools.logging.trace": true,
+		"cSpell.allowCompoundWords": true,
+		"cSpell.enabled": true,
+		"cSpell.ignorePaths": [
+			"**/package-lock.json",
+			"**/node_modules/**",
+			"**/vscode-extension/**",
+			"**/.git/**",
+			".vscode",
+			"typings",
+			"**/RESTClientDemo.code-workspace"
+		]
+	}
+}

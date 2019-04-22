@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{C3338FFA-52BB-4C54-9B06-C2E6BFF9BC68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
-    <Files>
-      <File FileName="Program.cs" Line="33" Column="55" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RESTClient" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="RESTClient" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="EmptyClass.cs" selected="True" />
             </Node>
           </Node>
         </State>
