@@ -1,9 +1,7 @@
-﻿<Properties StartupConfiguration="{8AD513A5-87F7-4F79-9F5F-8E1B1111A3E2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{8AD513A5-87F7-4F79-9F5F-8E1B1111A3E2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RESTClient Status">
     <Files>
-      <File FileName="modules/Repository.cs" Line="14" Column="41" />
-      <File FileName="modules/ErrorHandlers.cs" Line="11" Column="6" />
-      <File FileName="Program.cs" Line="79" Column="54" />
+      <File FileName="RESTClient Status" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,14 +10,12 @@
             <Node name="gitFiles" expanded="True" />
             <Node name="RESTClient" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="modules" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="modules" expanded="True">
+                <Node name="ErrorHandlers.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
