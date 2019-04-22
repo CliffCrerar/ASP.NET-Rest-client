@@ -1,8 +1,11 @@
 ﻿using System;
-using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using ErrorHandlers;
+using System.Collections.Generic;
+using System.Runtime.Serialization.Json;
+using WebAPIClient;
 
 namespace WebAPIClient
 {
@@ -10,7 +13,6 @@ namespace WebAPIClient
 	{
 		private static readonly HttpClient client = new HttpClient(); // instantiate http client
 		private static readonly ErrorHandler errorHandler = new ErrorHandler(); // instantiate ErrorHandler
-
 		static void Main(string[] args) // Main program or program entry
 		{
 			var startMsg = "|----------------< STARING REST CLIENT DEMO >----------------|";
@@ -28,6 +30,7 @@ namespace WebAPIClient
 		{
 			try // include error handling
 			{
+				var serializer = new DataContractJsonSerializer(typeof(List<repo>));
 				Console.WriteLine("|> >->->->->->->->> EXECUTING HTTP REQUEST <<-<-<-<-<-<-<-< <|");
 				Console.WriteLine("| -> Clear headers");
 				client.DefaultRequestHeaders.Accept.Clear();
@@ -40,13 +43,19 @@ namespace WebAPIClient
 				client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
 
 				Console.WriteLine("| -> Instantiating Task");
-				var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
-
+				// var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
+				var streamTask = client.GetStreamAsync("https://api.github.com/orgs/dotnet/repos");
 				Console.WriteLine("| -> Executing . . .");
-				var msg = await stringTask;
+				var repositories = serializer.ReadObject(await streamTask) as List<repo>;
 
-				Console.Write(msg);
 
+				//var msg = await stringTask;
+				//Console.Write(msg);
+				Console.WriteLine("| -> Looping throug HTTP Response");
+				foreach (var repo in repositories)
+				{
+					Console.WriteLine("Repo: " + repo.name);
+				}
 
 				EndProgram(); // End program
 			}

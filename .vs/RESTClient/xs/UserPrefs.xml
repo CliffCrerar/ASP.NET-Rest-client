@@ -1,27 +1,23 @@
-﻿<Properties StartupConfiguration="{C3338FFA-52BB-4C54-9B06-C2E6BFF9BC68}|Default">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="RESTClient" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="RESTClient" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="EmptyClass.cs" selected="True" />
-            </Node>
+            <Node name="RESTClient.sln" selected="True" />
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>RESTClient.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.RESTClient PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

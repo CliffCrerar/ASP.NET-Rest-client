@@ -21,9 +21,9 @@
 		"files.autoSave": "onFocusChange",
 		"csharpextensions.reFormatAfterChange": true,
 		"csharp.format.enable": true,
-		"csharp.referencesCodeLens.enabled": true,
+		"csharp.referencesCodeLens.enabled": false,
 		"csharp.suppressDotnetInstallWarning": true,
-		"csharp.testsCodeLens.enabled": true,
+		"csharp.testsCodeLens.enabled": false,
 		"omnisharp.autoStart": true,
 		"razor.devmode": true,
 		"razor.trace": "Messages",
@@ -39,6 +39,8 @@
 			".vscode",
 			"typings",
 			"**/RESTClientDemo.code-workspace"
-		]
+		],
+		"gitlens.advanced.telemetry.enabled": false,
+		"gitlens.codeLens.enabled": false
 	}
 }
