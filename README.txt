@@ -1,1 +1,0 @@
-﻿ASP.NET HTTP Rest client demo
