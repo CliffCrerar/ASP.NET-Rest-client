@@ -1,0 +1,11 @@
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/bin/Debug/netcoreapp2.1/RESTClient_sql_server.deps.json
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/bin/Debug/netcoreapp2.1/RESTClient_sql_server.runtimeconfig.json
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/bin/Debug/netcoreapp2.1/RESTClient_sql_server.runtimeconfig.dev.json
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/bin/Debug/netcoreapp2.1/RESTClient_sql_server.dll
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/bin/Debug/netcoreapp2.1/RESTClient_sql_server.pdb
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/obj/Debug/netcoreapp2.1/RESTClient_sql_server.csprojAssemblyReference.cache
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/obj/Debug/netcoreapp2.1/RESTClient_sql_server.csproj.CoreCompileInputs.cache
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/obj/Debug/netcoreapp2.1/RESTClient_sql_server.AssemblyInfoInputs.cache
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/obj/Debug/netcoreapp2.1/RESTClient_sql_server.AssemblyInfo.cs
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/obj/Debug/netcoreapp2.1/RESTClient_sql_server.dll
+/Users/cliffordcrerar/ASP.NET_projects/RESTClient_sql_server/obj/Debug/netcoreapp2.1/RESTClient_sql_server.pdb
