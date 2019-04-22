@@ -8,11 +8,9 @@
         <State name="__root__">
           <Node name="RESTClient" expanded="True">
             <Node name="gitFiles" expanded="True" />
-            <Node name="RESTClient" expanded="True">
+            <Node name="RESTClient" expanded="True" selected="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="modules" expanded="True">
-                <Node name="ErrorHandlers.cs" selected="True" />
-              </Node>
+              <Node name="modules" expanded="True" />
             </Node>
           </Node>
         </State>
